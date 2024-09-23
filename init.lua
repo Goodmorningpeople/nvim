@@ -7,6 +7,8 @@ vim.api.nvim_create_autocmd("FileType", {
   callback = function() vim.o.conceallevel = 2 end,
 })
 
+vim.cmd "set background=dark" -- Ensure the background is set to dark
+
 if not (vim.env.LAZY or (vim.uv or vim.loop).fs_stat(lazypath)) then
   -- stylua: ignore
   vim.fn.system({ "git", "clone", "--filter=blob:none", "https://github.com/folke/lazy.nvim.git", "--branch=stable", lazypath })
