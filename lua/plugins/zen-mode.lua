@@ -14,5 +14,8 @@ return {
         },
       },
     }
+
+    -- Set keybinding to toggle Zen Mode
+    vim.api.nvim_set_keymap("n", "<leader>zz", ":ZenMode<CR>", { noremap = true, silent = true })
   end,
 }
