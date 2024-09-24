@@ -15,12 +15,4 @@ return {
       return opts
     end,
   },
-  {
-    "rcarriga/nvim-notify",
-    config = function()
-      require("notify").setup {
-        background_colour = "#282828", -- Set a background color that suits your theme
-      }
-    end,
-  },
 }
