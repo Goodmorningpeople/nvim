@@ -2,7 +2,7 @@ return {
   "epwalsh/obsidian.nvim",
   config = function()
     require("obsidian").setup {
-      dir = "~/Documents/Obsidian Vault/",
+      dir = "~/Documents/markdown_notes/",
       ui = { enable = false },
     }
   end,
