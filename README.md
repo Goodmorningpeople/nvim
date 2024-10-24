@@ -1,2 +1,2 @@
-# nvim-config
-My aesthetic neovim config
+# nvim
+My aesthetic and functional neovim config
